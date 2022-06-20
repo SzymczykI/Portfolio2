@@ -6,14 +6,14 @@ const HeaderSocials = () => {
   return (
     <div className="header__socials">
       <a href="https://github.com/SzymczykI" rel="noreferrer" target="_blank">
-        <BsLinkedin />
+        <FaGithub />
       </a>
       <a
         href="https://www.linkedin.com/in/izabela-szymczyk-603514114/"
         rel="noreferrer"
         target="_blank"
       >
-        <FaGithub />
+        <BsLinkedin />
       </a>
     </div>
   );
