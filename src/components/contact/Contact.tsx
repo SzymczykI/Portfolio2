@@ -16,6 +16,8 @@ const Contact = () => {
       }, (error) => {
           console.log(error.text);
       });
+    
+    
   };
 
   return (
@@ -24,12 +26,14 @@ const Contact = () => {
       <h2>Contact me</h2>
 
       <div className="container contact__container">
+        <div className=" contact__form">
       <form ref={form} onSubmit={sendEmail}>
           <input type="text" name="name" placeholder="Your full name" required />
           <input type="email" name="email" placeholder="Your eamil" required />
           <textarea name="message" rows={7} placeholder="Your Message" required ></textarea>
           <button type="submit" className="btn btn-primary">Send message</button>
         </form>
+        </div>
       </div>
     </section>
   );

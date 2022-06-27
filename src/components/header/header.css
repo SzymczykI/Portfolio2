@@ -38,18 +38,19 @@ header {
  width: 34.5rem;
  justify-items: center;
  position: absolute;
- left: -93px
+ left: -110px
 } 
 
 .me {
   background: var(--color-primary);
-  width: 22rem;
-  height: 30rem;
+  width: 20rem;
+  height: 28rem;
   position: absolute;
   left: calc(50% - 11rem);
-  margin-top: 4rem;
+  margin-top: 2rem;
   border-radius: 12rem 12rem;
   overflow: hidden;
+
 }
 
 .scroll__down {
@@ -70,6 +71,10 @@ font-size: 0.9rem;
     .header__socials
     .scroll__down {
         display: none;
+    }
+
+    .me, .me__photo {
+      visibility:hidden
     }
 
   }
