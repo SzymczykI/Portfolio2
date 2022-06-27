@@ -24,7 +24,7 @@ const Portfolio = () => {
             >
               GitHub
             </a>
-            <a className="btn" href="">
+            <a className="btn" href="https://github.com/SzymczykI/Hackday-project">
               More Info
             </a>
           </div>
@@ -44,7 +44,7 @@ const Portfolio = () => {
             >
               GitHub
             </a>
-            <a className="btn" href="">
+            <a className="btn" href="https://github.com/SzymczykI/Hackday-project">
               More Info
             </a>
           </div>
@@ -64,7 +64,7 @@ const Portfolio = () => {
             >
               GitHub
             </a>
-            <a className="btn" href="">
+            <a className="btn" href="https://github.com/SzymczykI/Hackday-project">
               More Info
             </a>
           </div>
