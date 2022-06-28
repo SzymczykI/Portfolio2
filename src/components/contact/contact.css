@@ -4,6 +4,7 @@
   align-items: center;
 } */
 .container .contact__container {
+  margin-top: 8rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -37,6 +38,9 @@ textarea {
 @media screen and (max-width: 1024px) {
   form {
     width: 80%;
+  }
+  section {
+    margin-top: 6rem;
   }
 }
 
