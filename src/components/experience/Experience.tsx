@@ -1,12 +1,23 @@
 import React from "react";
 import "./experience.css";
-import { FaReact } from "react-icons/fa";
-import { SiRedux } from "react-icons/si";
-import { SiTypescript } from "react-icons/si";
+import { FaReact, FaDocker } from "react-icons/fa";
+import {
+  SiRedux,
+  SiTypescript,
+  SiNodedotjs,
+  SiMongodb,
+  SiPostgresql,
+  SiNetlify,
+  SiPostman,
+  SiJest,
+  SiMocha,
+} from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
-import { DiNodejs } from "react-icons/di";
-import { SiMongodb } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
+import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io";
+import { ImHtmlFive } from "react-icons/im";
+import { FiFigma } from "react-icons/fi";
+import { GrHeroku } from "react-icons/gr";
+import { BsGithub } from "react-icons/bs";
 
 const Experience = () => {
   return (
@@ -18,6 +29,18 @@ const Experience = () => {
         <div className="experience__frontend">
           <h3>Frontend</h3>
           <div className="experience__content">
+            <article className="experience__details">
+              <IoLogoJavascript className="experience__details-icon" />
+              <h4>JavaScript</h4>
+            </article>
+            <article className="experience__details">
+              <ImHtmlFive className="experience__details-icon" />
+              <h4>HTML5</h4>
+            </article>
+            <article className="experience__details">
+              <IoLogoCss3 className="experience__details-icon" />
+              <h4>CSS3</h4>
+            </article>
             <article className="experience__details">
               <FaReact className="experience__details-icon" />
               <h4>React</h4>
@@ -40,8 +63,8 @@ const Experience = () => {
           <h3>Backend</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <DiNodejs className="experience__details-icon" />
-              <h4>Node.js</h4>
+              <SiNodedotjs className="experience__details-icon" />
+              <h4>Node.js + Express</h4>
             </article>
             <article className="experience__details">
               <SiMongodb className="experience__details-icon" />
@@ -50,6 +73,43 @@ const Experience = () => {
             <article className="experience__details">
               <SiPostgresql className="experience__details-icon" />
               <h4>PostgreSQL</h4>
+            </article>
+          </div>
+        </div>
+        <div className="experience__tools">
+          <h3>Tools & Technologies</h3>
+          <div className="experience__content">
+            <article className="experience__details">
+              <FiFigma className="experience__details-icon" />
+              <h4>Figma</h4>
+            </article>
+            <article className="experience__details">
+              <GrHeroku className="experience__details-icon" />
+              <h4>Heroku</h4>
+            </article>
+            <article className="experience__details">
+              <SiNetlify className="experience__details-icon" />
+              <h4>Netlify</h4>
+            </article>
+            <article className="experience__details">
+              <FaDocker className="experience__details-icon" />
+              <h4>Docker</h4>
+            </article>
+            <article className="experience__details">
+              <SiPostman className="experience__details-icon" />
+              <h4>Postman</h4>
+            </article>
+            <article className="experience__details">
+              <SiJest className="experience__details-icon" />
+              <h4>Jest</h4>
+            </article>
+            <article className="experience__details">
+              <SiMocha className="experience__details-icon" />
+              <h4>Mocha</h4>
+            </article>
+            <article className="experience__details">
+              <BsGithub className="experience__details-icon" />
+              <h4>Git</h4>
             </article>
           </div>
         </div>
