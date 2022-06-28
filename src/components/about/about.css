@@ -52,19 +52,15 @@ border-color: var(--color-primary);
 .about__icon {
     color: var(--color-primary);
     font-size: 1.4rem;
-    margin-bottom: 1rem;
+    margin-bottom: 0.5rem;
 }
 
 .about__card h5 {
     font-size: 0.95rem;
 }
 
-.about__card small {
-    font-size: 0.7rem;
-    color: var(--color-light);
-}
-
 .about__content p {
+    font-size: 17px;
     margin: 2rem 0 2.6rem;
     color: var(--color-white)
 }
@@ -99,7 +95,11 @@ border-color: var(--color-primary);
    .about__content {
        text-align: center;
    }
+   .about__card h5 {
+    font-size: 0.65rem;
+}
 .about__content p {
+    font-size: 14px;
     margin: 1.5rem 0;
 }
   }
