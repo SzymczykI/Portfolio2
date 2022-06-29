@@ -41,7 +41,7 @@ const About = () => {
           <div className="about__cards">
             <article onClick={aboutMeHandler} className="about__card">
               <RiUser5Line className="about__icon" />
-              <h5>Who am I? </h5>
+              <h5>About </h5>
             </article>
 
             <article onClick={hobbyHandler} className="about__card">
@@ -63,7 +63,7 @@ const About = () => {
               own business. Now, I am professionally fulfilling my passion -
               programming. I have an analytical mind which I trained in economic
               studies, but I also have sensitivity and artistic skills. I am
-              most fascinated by the frontend, UX and good design due to my
+              most into the frontend development, UX and good design due to my
               aesthetic sense{" "}
             </p>
           )}
