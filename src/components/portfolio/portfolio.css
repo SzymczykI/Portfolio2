@@ -5,7 +5,8 @@
 }
 
 .portfolio__item {
-  height: 340px;
+  height: max-content;
+  min-height: 340px;
   background: var(--color-bg-variant);
   padding: 0.5rem;
   border-radius: 2rem;
@@ -15,6 +16,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  text-align: center;
 }
 
 .portfolio__item:hover {
@@ -29,7 +31,19 @@
 }
 
 .portfolio__item h3 {
-  margin: 1.2rem 0.2rem;
+  margin: 0.5rem 0.2rem;
+}
+
+.portfolio__item h5 {
+  margin-bottom: 0.5rem ;
+}
+
+.portfolio__item-more {
+  margin: 1rem;
+}
+
+.portfolio__item-more p {
+  font-size: 12px;
 }
 
 .portfolio__item-cta {
@@ -38,6 +52,10 @@
   margin-bottom: 1rem;
 }
 
+button {
+  background-color: transparent;
+  font-size: 15px;
+}
 /* media queries (tablet) */
 
 @media screen and (max-width: 1024px) {
