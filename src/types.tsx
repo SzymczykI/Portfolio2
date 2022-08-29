@@ -4,5 +4,6 @@ export interface ProjectType {
     description: string;
     technology: string;
     gitHubLink: string;
-    media: string;
+    media: string | any ;
+    lifeLink: string;
 }

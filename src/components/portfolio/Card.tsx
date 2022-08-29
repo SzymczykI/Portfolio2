@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import { ProjectType } from '../../types';
+import './portfolio.css'
 
 
 interface CardPropsComponentType {
@@ -31,12 +32,22 @@ const Card = ({project}: CardPropsComponentType ) => {
                 >
                   GitHub
                 </a>
-                <button
+               { isOpen 
+               ?  <a
+               className="btn"
+               href={project.lifeLink}
+               target="_blank"
+               rel="noreferrer"
+             >
+               Life Demo
+             </a>
+               : <button
                   className="btn"
                   onClick={() => setIsOpen(!isOpen)}
                 >
                   More Info
                </button>
+               }
               </div>
             </article>
   )

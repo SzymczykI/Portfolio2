@@ -1,12 +1,15 @@
-export const projects = [
+import gif from './assets/beauty.gif'
+
+const projects = [
     {
         id: 1,
-        name: 'US National Parks Guide',
+        name: 'Beauty Space E-commerce',
         description:
-            'Web application made during Hackday. Information site dedicated to the Most Popular National Parks in the United States. The website was built in the client-server model. Frontend using React and for Backend using Express. Retrieves data from an external API',
-        technology: 'React, HTML, CSS, JavaScript, Express',
-        gitHubLink: 'https://github.com/SzymczykI/Hackday-project',
-        media: 'https://i.ibb.co/jvS83Wx/hackday.png',
+            'Full Stack E-commerce app for beauty industry (cosmetics store)',
+        technology: 'Nextjs, Mongodb, React Hook, Bootstrap 4',
+        gitHubLink: 'https://github.com/SzymczykI/BeautySpace_store',
+        media: gif,
+        lifeLink: 'https://beauty-space-store.vercel.app'
     },
     {
         id: 2,
@@ -16,6 +19,7 @@ export const projects = [
         technology: 'React, HTML, CSS, JavaScript, Express, MongoDB, Google Map API, Own RESTful API, Firebase, Heroku ',
         gitHubLink: 'https://github.com/SzymczykI/SALT-trippin',
         media: 'https://i.ibb.co/GtGFm06/trippin.png',
+        lifeLink: ''
     },
     {
         id: 3,
@@ -25,5 +29,18 @@ export const projects = [
         technology: 'React, HTML, CSS, JavaScript, TypeScript ',
         gitHubLink: 'https://github.com/SzymczykI/Todo-App',
         media: 'https://i.ibb.co/mXBqF7Y/todo.png',
+        lifeLink: ''
+    },
+    {
+        id: 4,
+        name: 'US National Parks Guide',
+        description:
+            'Web application made during Hackday. Information site dedicated to the Most Popular National Parks in the United States. The website was built in the client-server model. Frontend using React and for Backend using Express. Retrieves data from an external API',
+        technology: 'React, HTML, CSS, JavaScript, Express',
+        gitHubLink: 'https://github.com/SzymczykI/Hackday-project',
+        media: 'https://i.ibb.co/jvS83Wx/hackday.png',
+        lifeLink: ''
     }
 ]
+
+export default projects
