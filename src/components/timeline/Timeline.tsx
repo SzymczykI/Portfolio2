@@ -8,7 +8,7 @@ const Timeline = () => {
       <div className="container timeline__container">
         <ul className="timeline">
           <li className="timeline-item mb-5">
-            <h4 className="fw-bold">Full Stack JavaScript Developer</h4>
+            <h4 className="fw-bold">Full Stack JavaScript Developer - Consultant</h4>
             <h5 className="fw-bold">
               School of applied technology &lt;​/salt&gt;
             </h5>
