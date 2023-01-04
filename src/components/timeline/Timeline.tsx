@@ -8,19 +8,46 @@ const Timeline = () => {
       <div className="container timeline__container">
         <ul className="timeline">
           <li className="timeline-item mb-5">
-            <h4 className="fw-bold">Full Stack JavaScript Developer - Consultant</h4>
+            <h4 className="fw-bold">Frontend Developer / UX Designer</h4>
+            <h5 className="fw-bold">Change Equity</h5>
+            <h5 className="text-muted mb-2 fw-bold">9.2022 - Present </h5>
+            <p className="text-muted">
+              Creating and implementing a new design and functionalities
+              (<a
+              className="text-muted"
+              href="https://www.noterat.io/"
+            >
+              Noterat.io
+            </a>
+              ), user experience design (React Native /
+              Figma)
+            </p>
+          </li>
+
+          <li className="timeline-item mb-5">
+            <h4 className="fw-bold">Full Stack JavaScript Developer</h4>
+            <h5 className="fw-bold">Applied Technology</h5>
+            <h5 className="text-muted mb-2 fw-bold">1.2022 - Present </h5>
+            <p className="text-muted">
+              Working on the development of various types of web application
+              projects (React, Next.js, Node,js, Vue.js), searching and
+              implementing optimal solutions, competence development.
+            </p>
+          </li>
+
+          <li className="timeline-item mb-5">
+            <h4 className="fw-bold">Full Stack JavaScript Bootcamp</h4>
             <h5 className="fw-bold">
               School of applied technology &lt;​/salt&gt;
             </h5>
-            <h5 className="text-muted mb-2 fw-bold">2022</h5>
+            <h5 className="text-muted mb-2 fw-bold">1/3.2022</h5>
             <p className="text-muted">
               From over 1000 applicants, I was one of ~30 students selected to
               partake in a highly paced and very intensive Full Stack JavaScript
               Developer program. The training emphasises applied learning
               through Mob Programming, Agile work methods and consists of 500
               coding hours with weekly demos and coding tests that are necessary
-              to pass in order to graduate. Currently, after completing the
-              program, I work here as a consultant and I am open to job offers
+              to pass in order to graduate.
             </p>
           </li>
 

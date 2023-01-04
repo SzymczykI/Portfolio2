@@ -1,6 +1,6 @@
 import React from "react";
 import "./experience.css";
-import { FaReact, FaDocker } from "react-icons/fa";
+import { FaReact, FaDocker, FaVuejs } from "react-icons/fa";
 import {
   SiRedux,
   SiTypescript,
@@ -56,6 +56,10 @@ const Experience = () => {
             <article className="experience__details">
               <TbBrandNextjs className="experience__details-icon" />
               <h4>Next.js</h4>
+            </article>
+            <article className="experience__details">
+              <FaVuejs className="experience__details-icon" />
+              <h4>Vue.js</h4>
             </article>
           </div>
         </div>
