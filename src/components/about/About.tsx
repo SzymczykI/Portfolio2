@@ -13,15 +13,15 @@ const About = () => {
   const aboutMeHandler = () => {
     setAboutMeOpen(true);
     setHobbyOpen(false);
-    setValuesOpen(false)
+    setValuesOpen(false);
   };
   const hobbyHandler = () => {
     setHobbyOpen(true);
     setAboutMeOpen(false);
-    setValuesOpen(false)
+    setValuesOpen(false);
   };
   const valuesHandler = () => {
-    setValuesOpen(true)
+    setValuesOpen(true);
     setHobbyOpen(false);
     setAboutMeOpen(false);
   };
@@ -56,15 +56,14 @@ const About = () => {
           </div>
           {aboutMeOpen && (
             <p>
-              I'm open-minded and creative Full Stack JavaScript Developer from
-              Poland living in Oslo, Norway. Finance and Accountancy
-              graduate, experienced in e-commerce and sales in the insurance,
-              clothing, cosmetics industries and also in creating and running my
-              own business. Now, I am professionally fulfilling my passion -
-              programming. I have an analytical mind which I trained in economic
-              studies, but I also have sensitivity and artistic skills. I am
-              most into the frontend development, UX and good design due to my
-              aesthetic sense{" "}
+              I'm open-minded and creative Full Stack Developer from Poland,
+              currently based in Oslo, Norway. I hold a finance and accountancy
+              degree and have gained experience in a diverse range of
+              industries. My passion for programming led me to pursue a career
+              in software development. My strong analytical skills and a natural
+              ability to solve problems, developed during economics studies,
+              combined with a keen eye for design and user experience, make me
+              well-suited for this field.{" "}
             </p>
           )}
           {hobbyOpen && (
