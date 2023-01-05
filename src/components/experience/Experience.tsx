@@ -11,6 +11,7 @@ import {
   SiPostman,
   SiJest,
   SiMocha,
+  SiGraphql,
 } from "react-icons/si";
 import { TbBrandNextjs } from "react-icons/tb";
 import { IoLogoJavascript, IoLogoCss3 } from "react-icons/io";
@@ -26,6 +27,7 @@ const Experience = () => {
       <h2>Technical Skills</h2>
 
       <div className="container experience__container">
+
         <div className="experience__frontend">
           <h3>Frontend</h3>
           <div className="experience__content">
@@ -63,6 +65,7 @@ const Experience = () => {
             </article>
           </div>
         </div>
+
         <div className="experience__backend">
           <h3>Backend</h3>
           <div className="experience__content">
@@ -78,8 +81,13 @@ const Experience = () => {
               <SiPostgresql className="experience__details-icon" />
               <h4>PostgreSQL</h4>
             </article>
+            <article className="experience__details">
+              <SiGraphql className="experience__details-icon" />
+              <h4>GraphQL</h4>
+            </article>
           </div>
         </div>
+        
         <div className="experience__tools">
           <h3>Tools & Technologies</h3>
           <div className="experience__content">

@@ -3,6 +3,7 @@ import "./timeline.css";
 const Timeline = () => {
   return (
     <section id="experience">
+      <h5>Experience</h5>
       <h2>Timeline</h2>
 
       <div className="container timeline__container">
@@ -12,15 +13,11 @@ const Timeline = () => {
             <h5 className="fw-bold">Change Equity</h5>
             <h5 className="text-muted mb-2 fw-bold">9.2022 - Present </h5>
             <p className="text-muted">
-              Creating and implementing a new design and functionalities
-              (<a
-              className="text-muted"
-              href="https://www.noterat.io/"
-            >
-              Noterat.io
-            </a>
-              ), user experience design (React Native /
-              Figma)
+              Creating and implementing a new design and functionalities (
+              <a className="text-muted" href="https://www.noterat.io/">
+                Noterat.io
+              </a>
+              ), user experience design (React Native / Figma)
             </p>
           </li>
 
