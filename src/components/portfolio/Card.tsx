@@ -11,9 +11,7 @@ const Card = ({ project }: CardPropsComponentType) => {
 
   return (
     <article key={project.id} className="portfolio__item">
-      <div className="portfolio__item-img">
-        <img src={project.media} alt="project" />
-      </div>
+      
       <h3>{project.name}</h3>
       <h5>{project.technology}</h5>
       {isOpen && (
