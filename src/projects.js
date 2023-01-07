@@ -25,17 +25,17 @@ const projects = [
         technology: 'Next.js, React, TypeScipt, Sanity CMS, Tailwind CSS, Vercel',
         gitHubLink: 'https://github.com/SzymczykI/BeautySpace_salon',
         media: beauty,
-        lifeLink: ''
+        lifeLink: 'https://github.com/SzymczykI/BeautySpace_salon'
     },
     {
         id: 3,
-        name: 'Beauty Space E-commerce',
+        name: 'Muzify',
         description:
-            'Full Stack E-commerce app for beauty industry (cosmetics store)',
-        technology: 'Nextjs, Mongodb, React Hook, Bootstrap 4',
-        gitHubLink: 'https://github.com/SzymczykI/BeautySpace_store',
-        media: ecommerce,
-        lifeLink: 'https://beauty-space-store.vercel.app'
+            'Personal project - Muzify is a web application for users to upload music and listen to it using the built-in player. Users can comment on songs, share them with others and creating lists. The main assumption of the project was to learn the Vue.js framework in practice.',
+        technology: 'Vue.js, Firebase Auth, Firestore, Firebase Storage, Howler.js, i18n, Pinia, TailwindCSS, Caching',
+        gitHubLink: 'https://github.com/SzymczykI/MUZIFY',
+        media: muzify,
+        lifeLink: 'https://muzify.vercel.app'
     },
     {
         id: 4,
@@ -49,13 +49,13 @@ const projects = [
     },
     {
         id: 5,
-        name: 'Muzify',
+        name: 'Beauty Space E-commerce',
         description:
-            'Simple React todo list app using custom Hooks and local storage',
-        technology: 'React, HTML, CSS, JavaScript, TypeScript ',
-        gitHubLink: 'https://github.com/SzymczykI/Todo-App',
-        media: muzify,
-        lifeLink: ''
+            'Personal project - Full Stack E-commerce app for beauty industry (cosmetics store)',
+        technology: 'Nextjs, Mongodb, React Hook, Bootstrap 4',
+        gitHubLink: 'https://github.com/SzymczykI/BeautySpace_store',
+        media: ecommerce,
+        lifeLink: 'https://beauty-space-store.vercel.app'
     },
 ]
 
