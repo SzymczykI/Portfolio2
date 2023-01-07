@@ -17,7 +17,7 @@ const Slider = () => {
 
         <div className="container portfolio__container">
           <Swiper
-            slidesPerView={1}
+            slidesPerView={2}
             spaceBetween={30}
             freeMode={true}
             pagination={{
